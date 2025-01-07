@@ -62,10 +62,11 @@ main .container > a{
     text-align: right;
 }
 main .container  .categories{
+    padding-inline: 20px;
     margin-block: 20px;
     display: grid;
-    grid-template-columns: repeat(6,auto);
-    gap: 20px;
+    grid-template-columns: repeat(4,auto);
+    gap: 100px;
 }
 main .container .categories a {
     border-radius: 20px;
